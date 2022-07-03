@@ -10,13 +10,15 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
+    padding-right: 10%;
 }
 .half-width img{
-    width: 70%;
+    width: 120%;
 }
 .button{
     text-decoration: none;
@@ -24,7 +26,7 @@ section{
     background-color: hwb(0 32% 20%);
     padding: 10px 30px;
     border-radius: 6px;
-    font-size: 15px;
+    font-weight: 15px;
     background-image: linear-gradient(rgb(204, 149, 152),hwb(0 32% 15%));
 }
 #change-color{
@@ -33,4 +35,9 @@ section{
 .top-image{
     background-image: url(bg_image/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(bg_image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
