@@ -2,5 +2,30 @@ body{
     font-family: 'Kanit', sans-serif;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
+}
+.color{
+    color: darkorange;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 70%;
+}
+.button{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: hwb(0 32% 20%);
+    padding: 10px 30px;
+    border-radius: 6px;
+    font-size: 15px;
+    background-image: linear-gradient(rgb(204, 149, 152),hwb(0 32% 15%));
+}
+#change-color{
+    color: grey;
 }
