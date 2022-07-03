@@ -1,19 +1,19 @@
 body{
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Alegreya Sans', sans-serif;
     margin: 0px;
 }
 h1{
-    font-size: 40px;
+    font-size: 50px;
 }
 .color{
     color: darkorange;
 }
-section{
+.flexibale-container{
     display: flex;
     margin-bottom: 150px;
 }
 .half-width{
-    width: 50%;
+    width: 40%;
     padding-left: 5%;
     padding-right: 10%;
 }
@@ -29,7 +29,7 @@ section{
     font-weight: 15px;
     background-image: linear-gradient(rgb(204, 149, 152),hwb(0 32% 15%));
 }
-#change-color{
+.changecolor{
     color: grey;
 }
 .top-image{
@@ -40,4 +40,7 @@ section{
     background-image: url(bg_image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.change-color{
+    color: hsl(41, 100%, 50%);
 }
